@@ -105,7 +105,7 @@ Authorization: Bearer YOUR_ACCESS_TOKEN
 ## 📝 **Görev Düzenleme**
 
 ```bash
-PUT /api/task/edit/{id} # Hangi Görev Düzenlenecekse Onun ID
+PUT /api/task/edit/{id} # Hangi Görev Düzenlenecekse Görev ID
 Authorization: Bearer YOUR_ACCESS_TOKEN
 ```
 
@@ -119,14 +119,14 @@ Authorization: Bearer YOUR_ACCESS_TOKEN
 ## ✅ **Görev Tamamlama**
 
 ```bash
-PATCH /api/task/completed/{id} # Hangi Görev Tamamlanacaksa Onun ID
+PATCH /api/task/completed/{id} # Hangi Görev Tamamlanacaksa Görev ID
 Authorization: Bearer YOUR_ACCESS_TOKEN
 ```
 
 ## ❌ **Görev Silme**
 
 ```bash
-DELETE /api/task/delete/{id} # Hangi Görev Silinecekse Onun ID
+DELETE /api/task/delete/{id} # Hangi Görev Silinecekse Görev ID
 Authorization: Bearer YOUR_ACCESS_TOKEN
 ```
 
