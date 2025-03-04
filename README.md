@@ -52,13 +52,13 @@ DB_CONNECTION=sqlite
 php artisan migrate
 ```
 
-### 5️⃣ ** Laravel için key oluştur **
+### 5️⃣ **Laravel için key oluştur**
 
 ```bash
 php artisan key:generate
 ```
 
-### 6️⃣ ** Uygulamayı Başlat **
+### 6️⃣ **Uygulamayı Başlat**
 
 ```bash
 php artisan serve
